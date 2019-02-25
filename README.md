@@ -5,3 +5,5 @@ The challenge is as followed ( it's in french) :
 Pour chaque mot clef, il faut lancer une recherche
 3. Il faut alors explorer les 10 premiers résultats de chaque mot clé
 Pour chaque résultat, il faut extraire le contenu principal (le corps du texte) de la page puis stocker dans un fichier texte, json, etc (format libre) toutes les phrases contenant un chiffre (en excluant les footnotes).
+# The suggested Solution
+
