@@ -1,6 +1,6 @@
 # The challenge 
 The challenge is as followed ( it's in french) : 
-1. Tu as une liste de mots clefs dans le fichier xlsx ci-joint
+1. Tu as une liste de mots clefs dans le fichier xlsx keywords.xlsx
 2. Tu dois te rendre sur cette adresse :  https://en.wikipedia.org/w/index.php?title=Special:Search
 Pour chaque mot clef, il faut lancer une recherche
 3. Il faut alors explorer les 10 premiers résultats de chaque mot clé
