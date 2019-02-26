@@ -12,4 +12,19 @@ For each result, you extract the main content of the page and, then, you store i
 
 
 # The suggested Solution
+The solution is a script that does the job, it stores the result as follows : 
+```
+###########
+Keyword   #
+###########
+_________________
+url_of_subpage   |
+_________________|
+
+- sentence with numbers n : 1
+- sentence with numbers n : 1
+.
+.
+.
+```
 
