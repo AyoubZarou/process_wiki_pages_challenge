@@ -47,10 +47,13 @@ If you chose to store the json too, the output file has the structure :
     {
       url_of_subpage1:
         [sentence_subpage1,sentence_subpages2,...], 
-      url_of_subpage2:[...]},
+      url_of_subpage2:[...]
+     ...
+     },
   keyword2: 
     {
-    ...}
+    ...
+    }...
 }
 
 ```
