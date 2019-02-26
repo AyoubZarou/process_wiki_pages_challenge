@@ -1,5 +1,5 @@
 # The challenge 
-The challenge is as followed  : 
+The challenge is as follows  : 
 1. You have a list of keywords given in the xlsx file keywords.xlsx
 2. You have to get to the adress : https://en.wikipedia.org/w/index.php?title=Special:Search 
 then you make a search for every single keyword.
