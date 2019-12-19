@@ -43,7 +43,8 @@ for ligne in range(s.nrows):
 #---------------------------
 
 # The used url for search, the keyword goes into {}        
-search_url="https://en.wikipedia.org/w/index.php?search={}&title=Special%3ASearch&profile=advanced&fulltext=1&advancedSearch-current=%7B%22namespaces%22%3A%5B0%5D%7D&ns0=1"
+search_url=("https://en.wikipedia.org/w/index.php?search={}&title=Special%3ASearch"
+            "&profile=advanced&fulltext=1&advancedSearch-current=%7B%22namespaces%22%3A%5B0%5D%7D&ns0=1")
 # A regex pattern used to verify if a sentence contains a number 
 num_pattern=re.compile(r'[(^\d)*]\d+')
 # The regex to get the main part
