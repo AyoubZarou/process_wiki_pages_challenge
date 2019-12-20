@@ -63,7 +63,7 @@ for i, keyword in enumerate(keywords):
     html_page = urlreq.urlopen(url).read().decode('utf-8')
     soup = bs(html_page, "html.parser") # parse the html page into a BeautifulSoup object to process it 
     # we get the first 10 links
-    links_soup = soup.find_all("a",{"data-serp-pos":re.compile('^[0-9]$')}) 
+    links_soup = soup.find_all("a", {"data-serp-pos": re.compile('^[0-9]$')}) 
     links = [element.get('href') for element in links_soup]
     for link in links:
         url = urljoin("https://en.wikipedia.org", link)
@@ -74,7 +74,7 @@ for i, keyword in enumerate(keywords):
         content = bs(content, "html.parser")
         update_progress(x+(40-len(x))*" ", (2*i+1)/100.0, second_half=True)
         # We delete scripts,styles,tables and spans
-        for element in content.find_all(['script','style','table','span']):
+        for element in content.find_all(['script', 'style', 'table', 'span']):
             element.extract()
         # we get he text without html tags
         string=content.text
@@ -95,9 +95,7 @@ for i, keyword in enumerate(keywords):
         return_string += all_sentences   
         
         
-## STORING PART        
-        
-        
+## STORING PART               
 # WE STORE THE SENTENCES WITH NUMERIC VALUES ON THEM ON A TEXT FILE
 
 with open('numeric_sentences.txt', 'w', encoding='utf-8') as f: 
