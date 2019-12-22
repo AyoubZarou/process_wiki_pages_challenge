@@ -109,7 +109,7 @@ update_progress("DONE"+36*" ", 100/100.0, second_half=True)
 
 
 ## DISPLAY THE NECESSARY TIME TO PROCESS THE SCRIPT
-total_time = (time.time()-t0)
-minutes = int(total_time/60)
-print("\nTook %.0f minutes and %.0f seconds"%(minutes, total_time-60*minutes))
+total_time = (time.time() - t0)
+minutes = int(total_time / 60)
+print("\nTook %.0f minutes and %.0f seconds"%(minutes, total_time - 60*minutes))
 
